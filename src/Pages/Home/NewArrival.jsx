@@ -15,7 +15,7 @@ function NewArrival() {
           <Card className="w-96">
             <CardHeader shadow={false} floated={false}>
               <img
-                src="https://i.ibb.co.com/dBwQtQQ/photo1.jpg"
+                src="https://i.ibb.co.com/VCvRRgt/20250123-132034.jpg"
                 alt="card-image"
                 className="h-full w-full object-cover"
               />
@@ -23,7 +23,7 @@ function NewArrival() {
             <CardBody>
               <div className="mb-2 flex items-center justify-between">
                 <Typography color="blue-gray" className="font-medium">
-                  Apple AirPods
+                  Salwar Kameez
                 </Typography>
                 <Typography color="blue-gray" className="font-medium">
                   $95.00
@@ -51,7 +51,7 @@ function NewArrival() {
           <Card className="w-96">
             <CardHeader shadow={false} floated={false}>
               <img
-                src="https://i.ibb.co.com/dBwQtQQ/photo1.jpg"
+                src="https://i.ibb.co.com/825ptbm/20250123-124250.jpg"
                 alt="card-image"
                 className="h-full w-full object-cover"
               />
@@ -59,7 +59,7 @@ function NewArrival() {
             <CardBody>
               <div className="mb-2 flex items-center justify-between">
                 <Typography color="blue-gray" className="font-medium">
-                  Apple AirPods
+                Salwar Kameez
                 </Typography>
                 <Typography color="blue-gray" className="font-medium">
                   $95.00
@@ -87,7 +87,7 @@ function NewArrival() {
           <Card className="w-96">
             <CardHeader shadow={false} floated={false}>
               <img
-                src="https://i.ibb.co.com/dBwQtQQ/photo1.jpg"
+                src="https://i.ibb.co.com/48YC70t/20250123-120010.jpg"
                 alt="card-image"
                 className="h-full w-full object-cover"
               />
@@ -95,7 +95,7 @@ function NewArrival() {
             <CardBody>
               <div className="mb-2 flex items-center justify-between">
                 <Typography color="blue-gray" className="font-medium">
-                  Apple AirPods
+                Salwar Kameez
                 </Typography>
                 <Typography color="blue-gray" className="font-medium">
                   $95.00

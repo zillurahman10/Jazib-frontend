@@ -1,0 +1,7 @@
+.custom-animation{
+    transition: 0.3s;
+}
+
+.custom-animation:hover{
+    transform: rotate(180deg);
+}

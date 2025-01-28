@@ -1,50 +1,57 @@
 import {
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Typography,
-    Input,
-    Checkbox,
-    Button,
-  } from "@material-tailwind/react";
-   
-  export function LoginCard() {
-    return (
-      <Card className="w-96">
-        <CardHeader
-          variant="gradient"
-          color="gray"
-          className="mb-4 grid h-28 place-items-center"
-        >
-          <Typography variant="h3" color="white">
-            Log In
+  Card,
+  Input,
+  Checkbox,
+  Button,
+  Typography,
+} from "@material-tailwind/react";
+import { Link } from "react-router-dom";
+ 
+export function LoginForm() {
+  return (
+     <Card color="transparent" shadow={true} className="p-5 mx-auto" style={{width: '420px', marginTop: '40px'}}>
+      <Typography variant="h4" color="blue-gray">
+        Login
+      </Typography>
+      <Typography color="gray" className="mt-1 font-normal">
+        Nice to meet you! Enter your details to Login.
+      </Typography>
+      <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+        <div className="mb-1 flex flex-col gap-6">
+          <Typography variant="h6" color="blue-gray" className="-mb-3">
+            Your Email
           </Typography>
-        </CardHeader>
-        <CardBody className="flex flex-col gap-4">
-          <Input label="Email" size="lg" />
-          <Input label="Password" size="lg" />
-          <div className="-ml-2.5">
-            <Checkbox label="Remember Me" />
-          </div>
-        </CardBody>
-        <CardFooter className="pt-0">
-          <Button variant="gradient" fullWidth>
-            Sign In
-          </Button>
-          <Typography variant="small" className="mt-6 flex justify-center">
-            Don&apos;t have an account?
-            <Typography
-              as="a"
-              href="#signup"
-              variant="small"
-              color="blue-gray"
-              className="ml-1 font-bold"
-            >
-              Sign up
-            </Typography>
+          <Input
+            size="lg"
+            placeholder="name@mail.com"
+            className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+            labelProps={{
+              className: "before:content-none after:content-none",
+            }}
+          />
+          <Typography variant="h6" color="blue-gray" className="-mb-3">
+            Password
           </Typography>
-        </CardFooter>
-      </Card>
-    );
-  }
+          <Input
+            type="password"
+            size="lg"
+            placeholder="********"
+            className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+            labelProps={{
+              className: "before:content-none after:content-none",
+            }}
+          />
+        </div>
+        <Button className="mt-6" fullWidth>
+          Login
+        </Button>
+        <Typography color="gray" className="mt-4 text-center font-normal">
+          Don't have an account?{" "}
+          <a href="#" className="font-medium text-gray-900">
+            <Link to="/signup">Create now</Link>
+          </a>
+        </Typography>
+      </form>
+    </Card>
+  );
+}

@@ -5,9 +5,15 @@ module.exports = withMT( {
     "./src/**/*.{js,jsx,ts,tsx}",
     "./public/index.html",
   ],
+  daisyui: {
+    themes: ["light"],
+  },
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  
 })
 

@@ -1,0 +1,13 @@
+.place-order{
+    background-color: black;
+    color: #ffff;
+    padding: 15px 130px;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.place-order:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid black;
+}

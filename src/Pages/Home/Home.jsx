@@ -3,12 +3,15 @@ import Banner from './Banner';
 import Carousel from './Carousel';
 import NewArrival from './NewArrival';
 import Testimonial from './Testimonial';
+import "./Home.css"
 
 function Home() {
   return (
     <>
       <Banner></Banner>
-      <h2 className='text-center mt-3 text-3xl font-bold'>Whats new !</h2>
+      <h2 style={{
+        marginTop: '100px',
+      }} className='text-center mt-5 text-3xl custom-font'>Visit the most wanted!</h2>
       <Carousel></Carousel>
       <h1 className="text-center text-3xl">Our New Arrival !</h1>
       <NewArrival></NewArrival>

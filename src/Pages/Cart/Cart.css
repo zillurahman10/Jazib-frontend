@@ -1,0 +1,13 @@
+.checkout-btn{
+    padding: 17px 100px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.checkout-btn:hover{
+    background-color: #ffff;
+    color: #000000;
+    border: 1px solid black;
+}
